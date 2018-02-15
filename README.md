@@ -6,6 +6,7 @@ These are two seperate keymap files for two different PCBs that I have, one for 
 This keymap was based off the default keymap in the [qmk firmware](https://github.com/qmk/qmk_firmware)
 
 ## Base Layer
+```
 ,-----------------------------------------------------------.
 |F(12)| 1|  2|  3|  4|  5|  6|  7|  8|  9|  0|  -|  =|Backsp|
 |-----------------------------------------------------------|
@@ -17,9 +18,11 @@ This keymap was based off the default keymap in the [qmk firmware](https://githu
 |-----------------------------------------------------------|
 |Ctrl|Gui |Alt |      Space             |Alt |Gui |Ctrl|Fn  |
 `-----------------------------------------------------------'
+```
 Capslock is replace with function layer 1 capacity
 
 ## Function Layer
+```
 ,-----------------------------------------------------------.
 |  ~ | F1| F2| F3| F4| F5| F6| F7| F8| F9|F10|F11|F12|Delete|
 |-----------------------------------------------------------|
@@ -31,6 +34,7 @@ Capslock is replace with function layer 1 capacity
 |-----------------------------------------------------------|
 |    |    |    |                          |    |    |   |   |
 `-----------------------------------------------------------'
+```
 VIM style arrow keys are used on H-L
 
 LED Options:
@@ -49,6 +53,7 @@ LED Options:
 This keymap was based off the default keymap in the [qmk firmware](https://github.com/qmk/qmk_firmware)
 
 ## Base Layer
+```
 ,----------------------------------------------------------------.
 |Esc | 1|  2|  3|  4|  5|  6|  7|  8|  9|  0|  -|  =|Backsp |~ ` |
 |----------------------------------------------------------------|
@@ -60,8 +65,10 @@ This keymap was based off the default keymap in the [qmk firmware](https://githu
 |----------------------------------------------------------------|
 |Ctrl| Alt |Fn|        Space          |Alt| Win|Ctrl|Lef|Dow|Rig |
 `----------------------------------------------------------------'
+```
 
 ## Function Layer
+```
 ,----------------------------------------------------------------.
 |   | F1|F2 |F3 |F4 |F5 |F6 |F7 |F8 |F9 |F10|F11|F12|Del    |Ins |
 |----------------------------------------------------------------|
@@ -73,4 +80,5 @@ This keymap was based off the default keymap in the [qmk firmware](https://githu
 |----------------------------------------------------------------|
 |    |    |    |                       |   |   |    |MsL|MsD|MsR |
 `----------------------------------------------------------------'
+```
 My PCB does not have any LEDs installed making the backlight options useless
